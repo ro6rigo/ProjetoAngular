@@ -1,0 +1,6 @@
+<ul ngClass="{slide : isMenuOpen}">
+    <li *ngFor="let item of menuslist;let index=index" (click)="menuItemClickHandler($event,index)">
+      {{item}}
+    </li>
+    </ul>
+  
